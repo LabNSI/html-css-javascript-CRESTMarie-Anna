@@ -18,7 +18,11 @@ body {
     alignement du texte: centré
 */
 header {
-
+	background-color: black;
+	margin: 50px;
+	padding :10 px;
+	border-radius: 10px;
+	text-align: center;
 }
 
 /* Couleur du texte: Blanc */
@@ -29,7 +33,7 @@ h1 {
 /* Style de la classe "choix"
 
 */
-_____ {
+.choix {
   float: left;
   width: 32.33%;
   margin: 0.5%;
@@ -53,7 +57,14 @@ _____ {
     couleur de fond: noir
 */
 .resultat {
-
+	float : left;
+	text-align : center;
+	width: 100%;
+	margin: 0.5%;
+	padding: 10 px;
+	height: 150 px;
+	border-radius: 20 px;
+	background-color: black;
 }
 
 /* Clear floats after the columns */
@@ -90,19 +101,19 @@ _____ {
     couleur de fond : #bbb
 */
 #identity {
-
+	background-color: #bbb
 }
 
 /* Style de l'élément d'ID "identity"
     couleur de fond : #bbb
 */
 #classe {
-
+	background-color: #bbb
 }
 
 /* Style de l'élément d'ID "identity"
     couleur de fond : #ccc
 */
 #speciality {
-
+	background-color: #ccc
 }
